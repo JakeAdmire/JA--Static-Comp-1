@@ -1,0 +1,110 @@
+body {
+	box-sizing: border-box;
+	height: 100%;
+	background-image: url(media/placeholder-background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+}
+
+header {
+	border: solid black 3px;
+	height: 175px;
+	width: 100%;
+	position: relative;
+}
+
+section.nav-bar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 50%;
+	width: 45%;
+	border: solid black 3px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+
+}
+
+.nav-button1,
+.nav-button2,
+.nav-button3 {
+	width: 30%;
+	height: 100%;
+	border: solid black 3px;
+}
+
+section.login {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 30%;
+	width: 20%;
+	border: solid black 3px;
+}
+
+section.logo {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	height: 60%;
+	width: 45%;
+	border: solid black 3px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 15px;
+}
+
+.cardset {
+	width: 100%;
+	/*height: 1000px;*/
+	/*padding: 15px;*/
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: solid black 3px;
+}
+
+.card {
+	width: 23%;
+	height: 450px;
+	border: solid black 3px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.card-image {
+	width: 100%;
+	height: 40%;
+	border: solid black 3px;
+	position: relative;
+}
+
+.flip-button {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 15px;
+	border: solid black 3px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+
+.card-counter {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 15px;
+	border: solid black 3px;
+	width: 70px;
+	height: 70px;
+}
