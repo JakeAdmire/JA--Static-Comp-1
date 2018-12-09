@@ -9,18 +9,19 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 /*----HEADER----*/
 
 header {
-	border: solid black 3px;
+	/*border: solid black 3px;*/
 	height: 175px;
 	width: 100%;
 	position: sticky;
 	top: 0;
-	background: grey;
-	box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.8)
+	background: white;
+	box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.8)
 }
 
 /*----NAV BAR----*/
@@ -31,7 +32,7 @@ section.nav-bar {
 	left: 0px;
 	height: 50%;
 	width: 45%;
-	border: solid black 3px;
+	/*border: solid black 3px;*/
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
@@ -39,12 +40,15 @@ section.nav-bar {
 
 }
 
-.nav-button1,
-.nav-button2,
-.nav-button3 {
+.nav-button {
 	width: 30%;
 	height: 100%;
 	border: solid black 3px;
+	transition: all 0.2s
+}
+
+.nav-button:hover {
+	background: grey;
 }
 
 /*----LOGIN PROMPT----*/
@@ -66,14 +70,25 @@ section.logo {
 	right: 0px;
 	height: 60%;
 	width: 45%;
-	border: solid black 3px;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+	/*border: solid black 3px;*/
+}
+
+section.logo h1 {
+	font-weight: 700;
+}
+
+.fas {
+	font-size: 70px;
 }
 
 /*----END OF HEADER----*/
 /*----TITLE TEXT----*/
 
 h1 {
-	font-size: 50px;
+	/*font-size: 50px;*/
 }
 
 /*----CARD SET----*/
@@ -94,7 +109,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 23%;
+	width: 300px;
 	height: 450px;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -107,10 +122,16 @@ h1 {
 	border-radius: 10px;
 	/*border: solid grey 2px;*/
 	padding: 0;
-	background: white;
+	/*background: white;*/
 	opacity: 0.8;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: all .2s ease;
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
 
 .ghost-card:hover > .card {
