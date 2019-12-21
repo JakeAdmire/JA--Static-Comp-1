@@ -1,39 +1,58 @@
-# Static Comp 1
+###### Top
 
-## Overview:
+<br />
+<p align="center">
+  <a href="https://github.com/JakeAdmire/Static-Composition">
+    <img src="https://github.com/JakeAdmire/Static-Composition/blob/master/media/cat2.jpg?raw=true" alt="Logo" width="150" height="150">
+  </a>
+  <h1 align="center">Static Composition</h1>
+  <p align="center">
+    An initial introduction into CSS FlexBox with a kitty-focused static composition!
+    <br />
+    <br />
+    <a href="https://jakeadmire.github.io/Static-Composition">View Demo</a>
+  </p>
+</p>
+<div align="center">
 
-Static Comp 1 is a solo project during MOD-1 of Turing School of Software and Design
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] ![GitHub](https://img.shields.io/github/followers/jakeadmire?label=Follow&style=for-the-badge)
+</div>
 
-#### Learning Goals for this project were:
-- Learning and using FlexBox to create a card layout based on a given design
+## Table of Contents
 
-[More information about original assignment can be found here](http://frontend.turing.io/projects/m1-static-comp-1.html)
+- [About The Project](#About-The-Project)
+  - [Media](#Media)
+  - [Built With](#Built-With)
+- [Assignment Details](#Assignment-Details)
 
-[Link to live site here](https://jakeadmire.github.io/JA--Static-Comp-1/)
+## About The Project
 
-## Preview:
+:cat: **Static Composition** was intended as a way to start learning the basics of CSS FlexBox.
 
-<img width="1504" alt="Screen Shot 2019-05-08 at 8 48 54 PM" src="https://user-images.githubusercontent.com/44077214/57423853-e163dd80-71d2-11e9-8456-eb643c2a87ad.png">
 
-## Future Development and Extensions Notes
+### Media
+![full page screenshot](https://user-images.githubusercontent.com/44077214/57423853-e163dd80-71d2-11e9-8456-eb643c2a87ad.png)
 
-Some functionality that I'd like to have in future iterations:
+### Built With
+- HTML5
+- CSS3 
 
-- A fully responsive design that's shrinkable to mobile layout
+## Assignment Details
 
-### Technologies Used
-Palette Picker was built using: 
-- HTML
-- CSS
-
-## Credits
-Credit for this project goes to: 
-- [Jake Admire](https://github.com/JakeAdmire)
+The intended assignment was to learn utilize CSS FlexBox to build a flexible card layout static composition. 
 
 ---
-This project was assigned by Louisa Barrett and Travis Rollins
 
-*@ Turing School of Software and Design, Denver, CO.*
+This project was assigned by Louisa Barrett and Travis Rollins 
+_@ Turing School of Software and Design, Denver, CO._
 
 ---
-**[Back to top](https://github.com/JakeAdmire/JA--Static-Comp-1/blob/master/README.md#static-comp-1)**
+
+**[BACK TO TOP](#top)**
+
+<!-- URL References  -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-0077b5.svg?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://linkedin.com/in/jakeadmire
+
+[gmail-shield]: https://img.shields.io/badge/-Email-red.svg?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-url]: https://mailto:jakeadmire1@gmail.com
