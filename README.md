@@ -15,7 +15,7 @@
 </p>
 <div align="center">
 
-[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] ![GitHub](https://img.shields.io/github/followers/jakeadmire?label=Follow&style=for-the-badge)
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] ![GitHub](https://img.shields.io/github/followers/jakeadmire?label=Follow&style=for-the-badge&logo=github)
 </div>
 
 ## Table of Contents
